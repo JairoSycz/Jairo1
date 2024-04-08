@@ -1,34 +1,64 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+	font-family:"montserrat-regular";
+	src:url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+	font-family:"montserrat-black";
+	src:url("fonts/Montserrat-Black.ttf");
+}
+
 *{
 	margin: 0px;
 	padding: 0px;
 }
 
-h1 {
-	color: green;
-	font-size: 30px;
+body {
+	widows: 600px;
+	background-color:#EFE891;
+	font-family: "Montserrat";
+	font-size: 1em;
+	margin: 30px
 }
 
-.botonera {
-	width: 1200px;
-	height: 90px;
-	background-color: indigo;
+h1 {
+	color: white;
+	font-size: 50px;
 }
+
 
 #cabecera {
-	background-color: aliceblue;
-	width: 1200px;
-	height: 220px;
+	background-color:#8F7044;
+	width: auto;
+	height: 180px;
+}
+
+.primersubtitulo {
+	padding-left: 30px;
+	color: white;
 }
 
 .caja {
-	width: 150px;
-	height: 50px;
-	background-color: antiquewhite;
-	padding: 50px;
-	border-width: 2px;
-	border-style: dotted;
-	border-color:black;
+	width: auto;
+	height: px;
+	padding: 30px 30px 10px 30px;
+}
+
+ul {
+	list-style: circle;
+}
+
+.ultimalista {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color:#000000;
 }
