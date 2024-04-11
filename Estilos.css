@@ -17,7 +17,7 @@
 }
 
 body {
-	widows: 600px;
+	widows: 600px; /*esta propiedad no existe*/
 	background-color:#EFE891;
 	font-family: "Montserrat";
 	font-size: 1em;
@@ -32,7 +32,7 @@ h1 {
 
 #cabecera {
 	background-color:#8F7044;
-	width: auto;
+	width: auto; /*el width por defeco es auto, no hace falta escribirlo, arreglalo en todos los altos*/
 	height: 180px;
 }
 
@@ -43,7 +43,7 @@ h1 {
 
 .caja {
 	width: auto;
-	height: px;
+	height: px; /*guarda!*/
 	padding: 30px 30px 10px 30px;
 }
 
