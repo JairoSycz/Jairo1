@@ -2,50 +2,45 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Ejercicio</title> <!--el title es el título de la página y el nombre que se va a mostrar en la pestaña del navegador, tiene que ser descriptivo del tp. imaginemos el caso de que yo abra varios tps en varias pestañas, todos van a tener sus nombres y el tuyo solo va a tener "ejercicio" y va a ser más difícil encontrar tu tp-->
-<link href="Estilos.css" rel="stylesheet" type="text/css"> <!--los nombres de los archivos no llevan mayúsculas, espacios ni caracteres especiales (a excepción del readme) en este caso está mal el nombre del css-->
+<title>CV Jairo Sycz</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<header id= "cabecera">
 		<h1 class="caja">Jairo Sycz</h1>
-		<h3 class="primersubtitulo">Estudiante en diseño gráfico</h3>
+		<p class="primersubtitulo">Estudiante en diseño gráfico</p>
 	</header>
 <main>
-	<section>
-			<article> <!--guarda con el indentado!-->
-				<img src="img/Foto-perfil.jpg" width="300px" height="300px" alt=""/> <!--corregir el nombre del archivo y el alt-->
+	<section class="sectionuno">
+		<article>
+			<img src="img/foto-perfil.jpg" width="300px" height="300px" alt="foto-perfil"/>
+		</article>
+		<article>
+			<h3>Acerca de mí</h3>
+				<p>Tengo 22 años. Soy estudiante de diseño gráfico en la UNLa, ya en mis últimos años de la carrera, específicamente el 4to. Me destaco en diseño y arte digital. Toda marca debe tener una identidad construida, y pondré gran esfuerzo para ayudar a mejorarla aún más.</p>
+			<h3>Diseñador gráfico junior</h3>
+				<p>Actualmente cursando la carrera de diseño gráfico y comunicación visual con experiencia en desarrollo de piezas gráficas para redes sociales, logotipos y desarrollo de identidades visuales. Buscando el puesto de diseñador gráfico para poder desarrollarme y emplear mis conocimientos dentro de la empresa</p>
 			</article>
-            <article>
-				<h3>Acerca de mí</h3>
-					<p>Tengo 22 años. Soy estudiante de diseño gráfico en la UNLa, ya en mis últimos
-años de la carrera, específicamente el 4to. Me destaco en diseño y arte digital.
-Toda marca debe tener una identidad construida, y pondré gran esfuerzo para
-ayudar a mejorarla aún más.</p> <!--las etiquetas se escriben en una sola línea porque no es el lugar para diseñar, si querés que la línea no sea tan larga ajustalo desde css-->
-				<h3>Diseñador gráfico junior</h3>
-					<p>Actualmente cursando la carrera de diseño gráfico y comunicación visual
-con experiencia en desarrollo de piezas gráficas para redes sociales, logotipos
-y desarrollo de identidades visuales. Buscando el puesto de diseñador gráfico
-para poder desarrollarme y emplear mis conocimientos dentro de la empresa</p>
-			</article>
-				<h3>Educación</h3>
-					<p>Licenciatura en Diseño Gráfico
-y Comunicación Visual. Actualmente cursando mi carrera como diseñador gráfico.</p>
-			<article>
-				<h3>Experiencia</h3>
-				<h4>Diseñador gráfico en ONE 2023-2024</h4>
+		<article>
+			<h3>Educación</h3>
+				<p>Licenciatura en Diseño Gráfico y Comunicación Visual. Actualmente cursando mi carrera como diseñador gráfico.</p>
+		</article>
+		<article>
+			<h3>Experiencia</h3>
+			<h4>Diseñador gráfico en ONE 2023-2024</h4>
 				<ul>
 					<li>Creador de identidad visual.</li>
 					<li>Creador de piezas gráficas para redes.</li>
 					<li>Diseño Mockups.</li>
 					<li>Diseño de estampado y etiquetas para las prendas.</li>
 				</ul>
-				<h4>Diseñador gráfico en Opes finance consulting 2023-2024</h4>
+			<h4>Diseñador gráfico en Opes finance consulting 2023-2024</h4>
 				<ul>
 					<li>Creador de identidad visual.</li>
 					<li>Diseño de tarjetas.</li>
 				</ul>
-				<h4>Diseñador gráfico en ICESEA 2021-2024</h4>
+			<h4>Diseñador gráfico en ICESEA 2021-2024</h4>
 				<ul>
 					<li>Creador de identidad visual.</li>
 					<li>Creador de piezas gráficas para redes.</li>
@@ -53,22 +48,24 @@ y Comunicación Visual. Actualmente cursando mi carrera como diseñador gráfico
 					<li>Distintas piezas gráficas como tarjetas,
 folletos, banners, separadores, cuadernos.</li>
 				</ul>
-			</article>
+		</article>
+		<article>
+			<h3>Habilidades</h3>
+				<p>Suelo trabajar en equipo, me adapto fácil y siempre estoy con ganas de aprender. Poseo un nivel de ingles intermedio, Y me destaco en la creación de identidad visual. También soy ilustrador tradicional y digital, Además se editar videos. Uso programas Adobe como Photoshop, Illustrator, Indesign y Premier Pro.</p>
+		</article>
+		<aside>
+			<a href="https://www.instagram.com/jairo_dibujos/" target="_blank"><img src="img/imagenspam.jpg" width="300px" height="400px" alt="imagenspam"/></a>
+		</aside>
 		</section>
-			<aside> <!--el aside es una etiqueta que semánticamente significa que el contenido va a un costado y además no es relevante su informacón, como por ejemplo una publicidad que, si no estuviese en la página, no modifica su contenido. Por ejemplo, si pusieses hobbies podría no estar en un cv, en cambio las habilidades son esenciales-->
-				<h3>Habilidades</h3>
-				<p>Suelo trabajar en equipo, me adapto fácil y siempre estoy con ganas de aprender. Poseo un nivel de ingles intermedio, Y me destaco en la creación de identidad visual. También soy ilustrador tradicional y digital, Además se editar videos.
-				Uso programas Adobe como Photoshop, Illustrator, Indesign y Premier Pro.</p>
-			</aside>
 	</main>
-		<footer>
+		<footer class="footer">
 		  <h3>Contacto</h3>
 			<ul class= "ultimalista">
-				<li>Dirección: Povincia de Buenos Aires, ciudad Lanús. Argentina</li>
-				<li>Teléfono: +54 1165358760</li>
-				<li>Correo: Syczdesign@gmail.com</li> <!--complementalo con la etiqueta <a> -->
-				<li>Redes: Instagram <a href="https://www.instagram.com/jairosycz/" target="_blank" >@jairosycz</a></li>
-				<li>Portafolio: <a href="https://www.behance.net/syczdesign" target="_blank">Jairo Sycz</a></li>
+				<li class="fla">Dirección: Povincia de Buenos Aires, ciudad Lanús. Argentina</li>
+				<li class="flb">Teléfono: +54 1165358760</li>
+				<li class="flc">Correo: <a href="mailto:syczjairo@gmail.com">Syczdesign@gmail.com</a></li>
+				<li class="fld">Redes: Instagram <a href="https://www.instagram.com/jairosycz/" target="_blank" >@jairosycz</a></li>
+				<li class="fle">Portafolio: <a href="https://www.behance.net/syczdesign" target="_blank">Jairo Sycz</a></li>
 			</ul>
 		</footer>
 </body>

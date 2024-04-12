@@ -17,11 +17,22 @@
 }
 
 body {
-	widows: 600px; /*esta propiedad no existe*/
-	background-color:#EFE891;
+	background-color:#F4F2DA;
 	font-family: "Montserrat";
 	font-size: 1em;
-	margin: 30px
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sectionuno {
+	max-width: 880px;
+	padding-left: 30px;
+	margin-right: 20px;
+}
+
+aside {
+	width: 300px;
 }
 
 h1 {
@@ -31,9 +42,10 @@ h1 {
 
 
 #cabecera {
-	background-color:#8F7044;
-	width: auto; /*el width por defeco es auto, no hace falta escribirlo, arreglalo en todos los altos*/
+	background-color:#362412;
 	height: 180px;
+	width: 100%;
+	padding: 30px 30px 10px 40px;
 }
 
 .primersubtitulo {
@@ -43,7 +55,6 @@ h1 {
 
 .caja {
 	width: auto;
-	height: px; /*guarda!*/
 	padding: 30px 30px 10px 30px;
 }
 
@@ -51,14 +62,51 @@ ul {
 	list-style: circle;
 }
 
-.ultimalista {
-	list-style: none;
-}
-
 a {
 	text-decoration: none;
+	color:white;
 }
 
 a:link {
-	color:#000000;
+	color:white;
 }
+
+.footer {
+	background-color:#362412;
+	color:white;
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.ultimalista {
+	list-style: none;
+	width: 900px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.fla {
+	flex-grow: 1;
+}
+
+.flb {
+	flex-grow: 1;
+}
+
+.flc {
+	flex-grow: 1;
+}
+
+.fld {
+	flex-grow: 1;
+}
+
+.fle {
+	flex-grow: 1;
+}
+
+
