@@ -45,7 +45,7 @@ h1 {
 	background-color:#362412;
 	height: 180px;
 	width: 100%;
-	padding: 30px 30px 10px 40px;
+	padding: 30px 30px 10px 40px; /*estps paddings están haciendo que se genere un scroll horizontal porque el navegador está calculando el 100% + los paddings, o sea, en mi caso que tengo un monitor de 1920px de ancho, va a calcular 1920+30+40= 2120px en total, lo que no entra en la pantalla. Para arreglarlo, hay que sumar una propiedad más que es box-sizing: border-box; para que contemple el tamaño del padding dentro del 100%*/
 }
 
 .primersubtitulo {
@@ -82,7 +82,7 @@ a:link {
 
 .ultimalista {
 	list-style: none;
-	width: 900px;
+	width: 900px; /*recordá que los anchos fijos no son una buena práctica, es preferible que tenga un porcentaje y/o un max-width */
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
