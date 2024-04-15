@@ -25,38 +25,69 @@ body {
 	align-items: center;
 }
 
+#cabecera {
+	background-color:#362412;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.textoeimagen {
+	display: flex;
+	max-width: 900px;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.fotodeperfil {
+	display: flex;
+	align-items: flex-end;
+
+}
+
+.caja {
+	color: white;
+	font-size: 80px;
+	display: flex;
+	align-items: flex-start;
+}
+
+
 .sectionuno {
-	max-width: 880px;
+	max-width: 900px;
 	padding-left: 30px;
 	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	font-size: 40px;
+	color:#362412;
+}
+
+h4 {
+	color:#362412;
+}
+
+.a .b .c .d .e {
+	display: flex;
+	justify-content: space-between;
+
 }
 
 aside {
 	width: 300px;
 }
 
-h1 {
-	color: white;
-	font-size: 50px;
-}
-
-
-#cabecera {
-	background-color:#362412;
-	height: 180px;
-	width: 100%;
-	padding: 30px 30px 10px 40px; /*estps paddings están haciendo que se genere un scroll horizontal porque el navegador está calculando el 100% + los paddings, o sea, en mi caso que tengo un monitor de 1920px de ancho, va a calcular 1920+30+40= 2120px en total, lo que no entra en la pantalla. Para arreglarlo, hay que sumar una propiedad más que es box-sizing: border-box; para que contemple el tamaño del padding dentro del 100%*/
-}
-
 .primersubtitulo {
-	padding-left: 30px;
 	color: white;
+	display: flex;
 }
 
-.caja {
-	width: auto;
-	padding: 30px 30px 10px 30px;
-}
 
 ul {
 	list-style: circle;
@@ -80,33 +111,19 @@ a:link {
 	justify-content: center;
 }
 
+.contacto {
+	align-self:flex-start;
+	align-content: center;
+}
+
 .ultimalista {
 	list-style: none;
-	width: 900px; /*recordá que los anchos fijos no son una buena práctica, es preferible que tenga un porcentaje y/o un max-width */
+	max-width: 900px;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	align-content: center;
 }
 
-.fla {
-	flex-grow: 1;
-}
-
-.flb {
-	flex-grow: 1;
-}
-
-.flc {
-	flex-grow: 1;
-}
-
-.fld {
-	flex-grow: 1;
-}
-
-.fle {
-	flex-grow: 1;
-}
 
 
