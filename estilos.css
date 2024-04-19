@@ -23,29 +23,32 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	
 }
 
 #cabecera {
 	background-color:#362412;
-	height: 500px;
+	height: 900px;
 	width: 100%;
 	display: flex;
+	background-image: url("img/foto-portada.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.titulosybotonera {
+	display: flex;
+	width: 900px;
 	justify-content: center;
-	justify-content: space-around;
-}
-
-.textoeimagen {
-	display: flex;
-	max-width: 900px;
-	flex-direction: row;
-	justify-content: space-around;
 	align-items: center;
+	
 }
 
-.fotodeperfil {
+.tituloysub {
 	display: flex;
-	align-items: flex-end;
-
+	flex-direction: column;
 }
 
 .caja {
@@ -55,13 +58,101 @@ body {
 	align-items: flex-start;
 }
 
+.botonera {
+	display: flex;
+	padding: 20px;
+	gap: 20px;
+}
 
 .sectionuno {
 	max-width: 900px;
-	padding-left: 30px;
-	margin-right: 20px;
 	display: flex;
+	gap: 190px;
+	padding: 70px 0px 70px 0px;
+}
+
+.tuno {
+	padding-bottom: 20px;
+}
+
+.tdos {
+	padding-bottom: 20px;
+}
+
+.clasea{
+	flex-grow: 1;
+	flex-basis: auto;
+}
+
+.claseb{
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.sectiondos {
+	display: flex;
+	max-width: 650px;
+	padding: 50px 0px 50px 0px;
 	flex-direction: column;
+	gap:70px;
+}
+
+.ttres {
+	padding-bottom: 20px;
+}
+
+.tcuatro {
+	padding-bottom: 20px;
+}
+
+.sectiontres {
+	display: flex;
+	max-width: 900px;
+	padding: 70px 0px 70px 0px;
+	flex-direction: column;
+}
+
+.tcinco {
+	padding-bottom: 20px;
+}
+
+.trabajoa {
+	padding-bottom: 50px;
+}
+
+.trabajob {
+	padding-bottom: 50px;
+}
+
+.trabajoc {
+	padding-bottom: 50px;
+	gap: 100px;
+}
+
+aside{
+	display: flex;
+	justify-content: center;
+}
+
+.contenedor{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 900px;
+	padding: 0px 0px 70px 0px;
+}
+
+.pclass {
+	padding-bottom: 20px;
+	gap: 20px;
+	display: flex;
+}
+
+.titulofinal{
+	padding-bottom: 20px;
+	gap:20px;
+	display: flex;
 }
 
 h3 {
@@ -70,17 +161,12 @@ h3 {
 }
 
 h4 {
-	color:#362412;
-}
-
-.a .b .c .d .e {
-	display: flex;
-	justify-content: space-between;
-
+	color: #362412;
 }
 
 aside {
-	width: 300px;
+	width: 900px;
+	padding: 20px;
 }
 
 .primersubtitulo {
@@ -98,8 +184,8 @@ a {
 	color:white;
 }
 
-a:link {
-	color:white;
+a:link  {
+	color:#FFFFFF;
 }
 
 .footer {
@@ -109,20 +195,19 @@ a:link {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-}
-
-.contacto {
-	align-self:flex-start;
 	align-content: center;
 }
 
 .ultimalista {
 	list-style: none;
 	max-width: 900px;
+	color:#FFFFFF;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-content: center;
+	padding: 50px;
+	line-height: 1.5;
 }
 
 
